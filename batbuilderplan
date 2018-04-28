@@ -1,0 +1,8 @@
+Goal build an interactive bat selection system that will allow the customer to customize color,material,length and type.
+
+Approach: use jquery state management to change  variable such as color when a button is clicked
+
+Payments:integration with stripe etc. as determined by the client
+
+difficultes:Payment integration, redesign and batpreview
+

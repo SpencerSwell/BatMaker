@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+
+.batContainer {
+	background-color:#ffffff;
+}
+
+.Preview {
+	display:flex;
+	justify-content: center;
+	margin-bottom:15vh;
+
+}
+
+
+.previewHandle {
+	display:inline;
+	position: absolute;
+}
+
+.previewBarrel {
+	display:inline;
+	position: absolute;
+}
+
+
+.Options {
+	background-color:#231F20;
+}
+
+
+#choices {
+	
+	text-align: center;
+}
+
+
+#choices > div {
+	border:5px solid #FF9200;
+	display:inline-block;
+	min-width:30vw;
+	padding:0.3%;
+	margin:5px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+.Birch, .Maple {
+	display:inline-block;
+	padding:1.0%;
+	border:5px solid #FF9200;
+	margin:25px;
+
+}
+
+
+
+.length1, .length2, .length3, .length4, .length5 {
+	display: inline-block;
+	margin-top:25px;
+	margin-bottom:25px;
+	border:5px solid #FF9200;
+	padding:1%;
+}
+
+
+.Options {text-align:center; min-height:68vh;}
+
+
+.RedHandle, .BlueHandle, .BlackHandle, .ClearHandle, .RedBarrel, .BlueBarrel, .ClearBarrel, .BlackBarrel {
+border:5px solid #FF9200;
+display:inline-block;
+padding:1%;
+
+}
+
+
+
+.batbuilderdescription {
+	font-family: 'Fira Sans', sans-serif;
+	margin-top:0px;
+	border-top:5px solid orange;
+	color:#fff;
+}
+
+h1 {
+	color:white;
+}
+
+.batdetails {
+	background-color:#EFEFEF;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	list-style: none;
+	
+	border-top:5px solid #7796A8;
+}
+
+
+.batdetails > ul {
+	list-style: none;
+}
+
+p{
+	font-size:18px;
+	font-family: 'Fira Sans', sans-serif;
+	color:#fff;
+}
+
+
+
+ .OptionOne:hover, .OptionTwo:hover, .Option3, .Option4, .Option5, .Option6, .Option7, .Option8, .Option9{
+  border:#fff;
+}
