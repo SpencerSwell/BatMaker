@@ -47,7 +47,9 @@ logoColor:undefined,
 
 length:undefined,
 
-engraving:false
+engraving1:undefined,
+
+engraving2:undefined
 
 
 };
@@ -240,6 +242,9 @@ if(stage==='Color') {
 
 $(".batlength").text('Length:' + batState.length);
 
+
+
+
 $(".twentytwo").remove();
 
 $(".twentyeight").remove();
@@ -319,6 +324,19 @@ $(".Options").append("<div class='BrownBarrel'> <img src='./img/brownbarrel.jpg'
 $(".Options").append('<div class="ClearBarrel"> <img src="./img/color-clear.jpg"> </img> <p> Clear </p> </div> ');
 
 $(".Options").append("<div class='SilverBarrel'> <img src='./img/silverbarrel.jpg'> </img> <p> Silver </p> </div> ");
+
+$(".Options").append(" <br> ");
+
+$(".Options").append("<p> Add engraving below for $5 per line with a limit of 30 characters per line. </p> ");
+
+$(".Options").append("<label style='color:white;'>Line 1: </label> <input type='text' id='engraving1' maxlength='30'> </input> ");
+
+$(".Options").append("<button class='submitengraving' style='background-color:#FF9200; padding:4px; border:0px;'> Submit </button> ");
+
+$(".Options").append("<label style='color:white;'>Line 2: </label> <input type='text' id='engraving2' maxlength='30'> </input> ");
+
+$(".Options").append("<button class='submitengraving2' style='background-color:#FF9200; padding:4px; border:0px;'  > Submit </button> ");
+
 
 }
 
@@ -952,6 +970,23 @@ if(batState.type==="One Hand Trainer Bat"&& batState.barrelColor==='Black') {
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
 $("#barrel").attr('src', './img/preview-barrel-training-black.png');
+
+}
+
+
+
+if(batState.type==="One Hand Trainer Bat"&& batState.handleColor==='Yellow') {
+$(".handlecolor").text('Handle Color:' + batState.handleColor);
+
+$("#handle").attr('src', './img/preview-handle-training-yellow.png');
+
+}
+
+
+if(batState.type==="One Hand Trainer Bat"&& batState.barrelColor==='Yellow') {
+$(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
+
+$("#barrel").attr('src', './img/preview-barrel-training-yellow.png');
 
 }
 
@@ -1981,6 +2016,35 @@ $(".Options").on("click", ".ClearBarrel" , function() {
 
 
 
+$(".Options").on("click", ".submitengraving" , function() {
+
+console.log("Submitting value of", document.getElementById('engraving1').value);
+
+var engraving1 = document.getElementById('engraving1').value;
+
+batState.engraving1 = engraving1;
+
+$(".engraving1").text('Engraving 1:' + batState.engraving1);
+
+console.log(batState.engraving1);
+
+})
+
+
+$(".Options").on("click", ".submitengraving2" , function() {
+
+	console.log("Submitting value of", document.getElementById('engraving2').value);
+
+	var engraving2 = document.getElementById('engraving2').value;
+
+	batState.engraving2 = engraving2;
+
+$(".engraving2").text('Engraving 2:' + batState.engraving2);
+
+	console.log(batState.engraving2);
+
+
+})
 
 
 

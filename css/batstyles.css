@@ -12,6 +12,13 @@
 
 }
 
+#logo {
+	width:110px;
+	position:absolute;
+	top:12px;
+	left:54vw;
+}
+
 
 .previewHandle {
 	display:inline;
@@ -110,6 +117,11 @@ p{
 	font-size:18px;
 	font-family: 'Fira Sans', sans-serif;
 	color:#fff;
+}
+
+
+body {
+	overflow-x: hidden;
 }
 
 
