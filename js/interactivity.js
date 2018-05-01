@@ -526,7 +526,7 @@ $("#barrel").attr('src', './img/preview-barrel-248-silver.png');
 
 }
 
-if(batState.type==="Adult Bat"&& batState.handleColor==='Natural') {
+if(batState.type==="Adult Bat"&& batState.handleColor==='Clear') {
 
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
 
@@ -535,7 +535,7 @@ $("#handle").attr('src', './img/preview-handle-248-clear.png');
 }
 
 
-if(batState.type==="Adult Bat"&& batState.barrelColor==='Natural') {
+if(batState.type==="Adult Bat"&& batState.barrelColor==='Clear') {
 
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
@@ -560,6 +560,25 @@ if(batState.type==="Youth Bat"&& batState.barrelColor==='Black') {
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
 $("#barrel").attr('src', './img/preview-barrel-248-black.png');
+
+}
+
+
+
+
+
+if(batState.type==="Youth Bat"&& batState.handleColor==='Red') {
+$(".handlecolor").text('Handle Color:' + batState.handleColor);
+
+$("#handle").attr('src', './img/preview-handle-248-red.png');
+
+}
+
+
+if(batState.type==="Youth Bat"&& batState.barrelColor==='Red') {
+$(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
+
+$("#barrel").attr('src', './img/preview-barrel-248-red.png');
 
 }
 
@@ -1208,6 +1227,21 @@ $("#barrel").attr('src', './img/preview-barrel-248-black.png');
 
 }
 
+if(batState.type==="Display Bat"&& batState.handleColor==='Yellow') {
+$(".handlecolor").text('Handle Color:' + batState.handleColor);
+
+$("#handle").attr('src', './img/preview-handle-248-yellow.png');
+
+}
+
+
+if(batState.type==="Display Bat"&& batState.barrelColor==='Yellow') {
+$(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
+
+$("#barrel").attr('src', './img/preview-barrel-248-yellow.png');
+
+}
+
 
 if(batState.type==="Display Bat"&& batState.handleColor==='Purple') {
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
@@ -1385,6 +1419,21 @@ if(batState.type==="3D Engraved Bat"&& batState.barrelColor==='Black') {
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
 $("#barrel").attr('src', './img/preview-barrel-248-black.png');
+
+}
+
+if(batState.type==="3D Engraved Bat"&& batState.handleColor==='Yellow') {
+$(".handlecolor").text('Handle Color:' + batState.handleColor);
+
+$("#handle").attr('src', './img/preview-handle-248-yellow.png');
+
+}
+
+
+if(batState.type==="3D Engraved Bat"&& batState.barrelColor==='Yellow') {
+$(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
+
+$("#barrel").attr('src', './img/preview-barrel-248-yellow.png');
 
 }
 
