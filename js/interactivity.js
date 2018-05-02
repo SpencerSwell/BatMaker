@@ -86,10 +86,7 @@ batState.material = material;
 }
 
 
-function setColors(handleColor, barrelColor, logoColor) {
 
-
-}
 
 
 function defineLength(dimensions) {
@@ -100,14 +97,7 @@ batState.length = dimensions;
 
 
 
-function addEngraving(message) {
 
-} 
-
-
-function changePicture(handle,barrel) {
-	
-}
 
 function switchState (stage) {
 
@@ -321,9 +311,21 @@ $(".Options").append("<div class='PurpleBarrel'> <img src='./img/purplebarrel.jp
 
 $(".Options").append("<div class='BrownBarrel'> <img src='./img/brownbarrel.jpg'> </img> <p> Brown </p> </div> ");
 
-$(".Options").append('<div class="ClearBarrel"> <img src="./img/color-clear.jpg"> </img> <p> Clear </p> </div> ');
+$(".Options").append('<div class="ClearBarrel"> <img src="./img/color-clear.jpg"> </img> <p> Natural </p> </div> ');
 
 $(".Options").append("<div class='SilverBarrel'> <img src='./img/silverbarrel.jpg'> </img> <p> Silver </p> </div> ");
+
+$(".Options").append(" <br> ");
+
+$(".Options").append("<p> Logo Colors </p> ");
+
+$(".Options").append("<div class='orangelogo'> <img src='./img/oxface.png'> </img> <p> Orange </p> </div> ");
+
+$(".Options").append("<div class='bluelogo'> <img src='./img/blueox.png'> </img> <p> Blue </p> </div> ");
+
+$(".Options").append("<div class='redlogo'> <img src='./img/redox.png'> </img> <p> Red </p> </div> ");
+
+$(".Options").append("<div class='graylogo'> <img src='./img/greyox.png'> </img> <p> Gray </p> </div> ");
 
 $(".Options").append(" <br> ");
 
@@ -526,7 +528,7 @@ $("#barrel").attr('src', './img/preview-barrel-248-silver.png');
 
 }
 
-if(batState.type==="Adult Bat"&& batState.handleColor==='Clear') {
+if(batState.type==="Adult Bat"&& batState.handleColor==='Natural') {
 
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
 
@@ -535,7 +537,7 @@ $("#handle").attr('src', './img/preview-handle-248-clear.png');
 }
 
 
-if(batState.type==="Adult Bat"&& batState.barrelColor==='Clear') {
+if(batState.type==="Adult Bat"&& batState.barrelColor==='Natural') {
 
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
@@ -733,7 +735,7 @@ $("#barrel").attr('src', './img/preview-barrel-248-red.png');
 
 }
 
-if(batState.type==="Youth Bat"&& batState.handleColor==='Clear') {
+if(batState.type==="Youth Bat"&& batState.handleColor==='Natural') {
 
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
 
@@ -742,7 +744,7 @@ $("#handle").attr('src', './img/preview-handle-248-clear.png');
 }
 
 
-if(batState.type==="Youth Bat"&& batState.barrelColor==='Clear') {
+if(batState.type==="Youth Bat"&& batState.barrelColor==='Natural') {
 
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
@@ -943,7 +945,7 @@ $("#barrel").attr('src', './img/preview-barrel-fungo-silver.png');
 
 
 
-if(batState.type==="Fungo Bat"&& batState.handleColor==='Clear') {
+if(batState.type==="Fungo Bat"&& batState.handleColor==='Natural') {
 
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
 
@@ -952,7 +954,7 @@ $("#handle").attr('src', './img/preview-handle-fungo-clear.png');
 }
 
 
-if(batState.type==="Fungo Bat"&& batState.barrelColor==='Clear') {
+if(batState.type==="Fungo Bat"&& batState.barrelColor==='Natural') {
 
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
@@ -1060,7 +1062,7 @@ $("#barrel").attr('src', './img/preview-barrel-training-red.png');
 
 }
 
-if(batState.type==="One Hand Trainer Bat"&& batState.handleColor==='Clear') {
+if(batState.type==="One Hand Trainer Bat"&& batState.handleColor==='Natural') {
 
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
 
@@ -1069,7 +1071,7 @@ $("#handle").attr('src', './img/preview-handle-training-clear.png');
 }
 
 
-if(batState.type==="One Hand Trainer Bat"&& batState.barrelColor==='Clear') {
+if(batState.type==="One Hand Trainer Bat"&& batState.barrelColor==='Natural') {
 
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
@@ -1113,7 +1115,7 @@ $("#barrel").attr('src', './img/preview-barrel-training-babyblue.png');
 
 }
 
-if(batState.type==="One Hand Trainer Bat"&& batState.handleColor==='Clear') {
+if(batState.type==="One Hand Trainer Bat"&& batState.handleColor==='Natural') {
 
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
 
@@ -1122,7 +1124,7 @@ $("#handle").attr('src', './img/preview-handle-training-clear.png');
 }
 
 
-if(batState.type==="One Hand Trainer Bat"&& batState.barrelColor==='Clear') {
+if(batState.type==="One Hand Trainer Bat"&& batState.barrelColor==='Natural') {
 
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
@@ -1381,7 +1383,7 @@ $("#barrel").attr('src', './img/preview-barrel-248-red.png');
 
 }
 
-if(batState.type==="Display Bat"&& batState.handleColor==='Clear') {
+if(batState.type==="Display Bat"&& batState.handleColor==='Natural') {
 
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
 
@@ -1390,7 +1392,7 @@ $("#handle").attr('src', './img/preview-handle-248-clear.png');
 }
 
 
-if(batState.type==="Display Bat"&& batState.barrelColor==='Clear') {
+if(batState.type==="Display Bat"&& batState.barrelColor==='Natural') {
 
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
@@ -1576,7 +1578,7 @@ $("#barrel").attr('src', './img/preview-barrel-248-red.png');
 
 }
 
-if(batState.type==="3D Engraved Bat"&& batState.handleColor==='Clear') {
+if(batState.type==="3D Engraved Bat"&& batState.handleColor==='Natural') {
 
 $(".handlecolor").text('Handle Color:' + batState.handleColor);
 
@@ -1585,7 +1587,7 @@ $("#handle").attr('src', './img/preview-handle-248-clear.png');
 }
 
 
-if(batState.type==="3D Engraved Bat"&& batState.barrelColor==='Clear') {
+if(batState.type==="3D Engraved Bat"&& batState.barrelColor==='Natural') {
 
 $(".barrelcolor").text('Barrel Color:' + batState.barrelColor);
 
@@ -1881,7 +1883,7 @@ $(".Options").on("click", ".BlackHandle" , function() {
 
 $(".Options").on("click", ".ClearHandle" , function() {
 
-	batState.handleColor = 'Clear';
+	batState.handleColor = 'Natural';
 
 	changeBatPreview();
 
@@ -2053,13 +2055,48 @@ $(".Options").on("click", ".PurpleBarrel" , function() {
 
 $(".Options").on("click", ".ClearBarrel" , function() {
 
-	batState.barrelColor = 'Clear';
+	batState.barrelColor = 'Natural';
 
 	changeBatPreview();
 
 	console.log(batState.barrelColor);
 
 
+
+})
+
+
+
+
+$(".Options").on("click", ".redlogo" , function() {
+
+$('#batlogo').attr('src','./img/redox.png');
+
+
+});
+
+
+
+$(".Options").on("click", ".graylogo" , function() {
+
+$('#batlogo').attr('src','./img/greyox.png');
+
+})
+
+
+
+
+$(".Options").on("click", ".bluelogo" , function() {
+
+$('#batlogo').attr('src','./img/blueox.png');
+
+
+})
+
+
+$(".Options").on("click", ".orangelogo" , function() {
+
+$('#batlogo').attr('src','./img/oxface.png');
 
 })
 
