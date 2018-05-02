@@ -2072,6 +2072,9 @@ $(".Options").on("click", ".redlogo" , function() {
 
 $('#batlogo').attr('src','./img/redox.png');
 
+$('.logocolor').text('Logo Color: Red');
+
+batState.logoColor = 'Red';
 
 });
 
@@ -2080,6 +2083,10 @@ $('#batlogo').attr('src','./img/redox.png');
 $(".Options").on("click", ".graylogo" , function() {
 
 $('#batlogo').attr('src','./img/greyox.png');
+
+$('.logocolor').text('Logo Color: Gray');
+
+batState.logoColor = 'Gray';
 
 })
 
@@ -2090,6 +2097,9 @@ $(".Options").on("click", ".bluelogo" , function() {
 
 $('#batlogo').attr('src','./img/blueox.png');
 
+$('.logocolor').text('Logo Color: Blue');
+
+batState.logoColor = 'Blue';
 
 })
 
@@ -2097,6 +2107,10 @@ $('#batlogo').attr('src','./img/blueox.png');
 $(".Options").on("click", ".orangelogo" , function() {
 
 $('#batlogo').attr('src','./img/oxface.png');
+
+$('.logocolor').text('Logo Color: Orange');
+
+ batState.logoColor = 'Orange';
 
 })
 
