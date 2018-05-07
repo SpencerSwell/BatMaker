@@ -45,6 +45,8 @@ barrelColor:undefined,
 
 logoColor:undefined,
 
+stripeColor:undefined,
+
 length:undefined,
 
 engraving1:undefined,
@@ -317,13 +319,28 @@ $(".Options").append("<div class='SilverBarrel'> <img src='./img/silverbarrel.jp
 
 $(".Options").append(" <br> ");
 
+$(".Options").append("<p> Stripe Colors </p> ");
+
+$(".Options").append("<div class='orangestripe'> <img src='./img/orangepreview.png'> </img> <p> Orange </p> </div> ");
+
+$(".Options").append("<div class='bluestripe'> <img src='./img/bluepreview.png'> </img> <p> Blue </p> </div> ");
+
+$(".Options").append("<div class='redstripe'> <img src='./img/redpreview.png'> </img> <p> Red </p> </div> ");
+
+$(".Options").append("<div class='blackstripe'> <img src='./img/blackpreview.png'> </img> <p> Black </p> </div> ");
+
+$(".Options").append("<div class='whitestripe'> <img src='./img/whitepreview.png'> </img> <p> White </p> </div> ");
+
+
+$(".Options").append(" <br> ");
+
 $(".Options").append("<p> Logo Colors </p> ");
 
-$(".Options").append("<div class='orangelogo'> <img src='./img/oxface.png'> </img> <p> Orange </p> </div> ");
+$(".Options").append("<div class='orangelogo'> <img src='./img/newox.png'> </img> <p> Orange </p> </div> ");
 
-$(".Options").append("<div class='bluelogo'> <img src='./img/blueox.png'> </img> <p> Blue </p> </div> ");
+$(".Options").append("<div class='bluelogo'> <img src='./img/trueblueox.png'> </img> <p> Blue </p> </div> ");
 
-$(".Options").append("<div class='redlogo'> <img src='./img/redox.png'> </img> <p> Red </p> </div> ");
+$(".Options").append("<div class='redlogo'> <img src='./img/trueredox.png'> </img> <p> Red </p> </div> ");
 
 $(".Options").append("<div class='graylogo'> <img src='./img/greyox.png'> </img> <p> Gray </p> </div> ");
 
@@ -2070,7 +2087,7 @@ $(".Options").on("click", ".ClearBarrel" , function() {
 
 $(".Options").on("click", ".redlogo" , function() {
 
-$('#batlogo').attr('src','./img/redox.png');
+$('#batlogo').attr('src','./img/trueredox.png');
 
 $('.logocolor').text('Logo Color: Red');
 
@@ -2095,7 +2112,7 @@ batState.logoColor = 'Gray';
 
 $(".Options").on("click", ".bluelogo" , function() {
 
-$('#batlogo').attr('src','./img/blueox.png');
+$('#batlogo').attr('src','./img/trueblueox.png');
 
 $('.logocolor').text('Logo Color: Blue');
 
@@ -2106,11 +2123,71 @@ batState.logoColor = 'Blue';
 
 $(".Options").on("click", ".orangelogo" , function() {
 
-$('#batlogo').attr('src','./img/oxface.png');
+$('#batlogo').attr('src','./img/newox.png');
 
 $('.logocolor').text('Logo Color: Orange');
 
  batState.logoColor = 'Orange';
+
+})
+
+
+
+
+$(".Options").on("click", ".whitestripe" , function() {
+
+$('#batStripe').attr('src','./img/whitestripe.png');
+
+$('.stripecolor').text('Stripe Color: White');
+
+batState.stripeColor = 'Stripe Color: White';
+
+});
+
+
+
+$(".Options").on("click", ".blackstripe" , function() {
+
+$('#batStripe').attr('src','./img/blackstripe.png');
+
+$('.stripecolor').text('Stripe Color: Black');
+
+batState.stripeColor = 'Black';
+
+})
+
+
+
+
+$(".Options").on("click", ".bluestripe" , function() {
+
+$('#batStripe').attr('src','./img/bluestripe.png');
+
+$('.stripecolor').text('Stripe Color: Blue');
+
+batState.stripeColor = 'Blue';
+
+})
+
+
+$(".Options").on("click", ".orangestripe" , function() {
+
+$('#batStripe').attr('src','./img/orangestripe.png');
+
+$('.stripecolor').text('Stripe Color: Orange');
+
+ batState.logoColor = 'Orange';
+
+})
+
+
+$(".Options").on("click", ".redstripe" , function() {
+
+$('#batStripe').attr('src','./img/redstripe.png');
+
+$('.stripecolor').text('Stripe Color: Red');
+
+ batState.logoColor = 'Red';
 
 })
 

@@ -15,7 +15,7 @@
 #batlogo {
 	width:135px;
 	position:absolute;
-	top:28px;
+	top:33px;
 	
 }
 
@@ -32,16 +32,28 @@
 	width:950px;
 }
 
+
+.batStripe, .previewStripe {
+	position: absolute;
+}
+
+#batStripe {
+	width:900px;
+	position: relative;
+	right:55px;
+	bottom:3px;
+}
+
 .previewLogo {
 	display: flex;
-	width:300px;
+	width:275px;
 	justify-content: flex-end;
 }
 
 
 .previewBarrel > img, .previewHandle> img  {
 
-width:750px;
+width:850px;
 
 }
 
@@ -143,6 +155,16 @@ body {
 	display:inline-block;
 	padding:1%;
 }
+
+.whitestripe, .bluestripe, .blackstripe, .orangestripe, .redstripe {
+
+	border:5px solid #FF9200;
+	display:inline-block;
+	padding:1%;
+	width:10vw;
+}
+
+
 
 .orangelogo > img, .bluelogo > img, .redlogo > img, .graylogo > img{
 	width:135px;
