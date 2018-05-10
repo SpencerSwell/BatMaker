@@ -9,13 +9,18 @@
 	display:flex;
 	justify-content: center;
 	margin-bottom:17vh;
+	position:fixed;
+	height:100px;
+	z-index:5;
+	width:100vw;
+	top:10px;
 
 }
 
 #batlogo {
 	width:135px;
 	position:absolute;
-	top:33px;
+	top:25px;
 	
 }
 
@@ -132,6 +137,7 @@ h1 {
 	list-style: none;
 	
 	border-top:5px solid #0071B2;
+	margin-top:18vh;
 }
 
 
