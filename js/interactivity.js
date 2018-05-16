@@ -344,6 +344,17 @@ $(".Options").append("<div class='redlogo'> <img src='./img/trueredox.png'> </im
 
 $(".Options").append("<div class='graylogo'> <img src='./img/greyox.png'> </img> <p> Gray </p> </div> ");
 
+$(".Options").append("<h2 style='font-size:1.2em; color:#fff;'> You may submit requests for Bats with custom colors </h2> ");
+
+$(".Options").append("<label style='color:white;'>Custom  Handle Color: </label> <input type='text' id='customhandle' maxlength='30'> </input> ");
+$(".Options").append("<button class='submitengraving' style='background-color:#FF9200; padding:4px; border:0px;'> Submit </button> ");
+
+$(".Options").append("<label style='color:white;'>Custom Barrel Color: </label> <input type='text' id='custombarrel' maxlength='30'> </input> ");
+$(".Options").append("<button class='submitengraving' style='background-color:#FF9200; padding:4px; border:0px;'> Submit </button> ");
+
+$(".Options").append("<label style='color:white;'>Custom Stripe Color: </label> <input type='text' id='Custom Stripe' maxlength='30'> </input> ");
+$(".Options").append("<button class='submitengraving' style='background-color:#FF9200; padding:4px; border:0px;'> Submit </button> ");
+
 $(".Options").append(" <br> ");
 
 $(".Options").append("<p> Add engraving below for $5 per line with a limit of 30 characters per line. </p> ");
